@@ -40,25 +40,26 @@ promiseForData
 
 ## Tasks
 
-
-*SPACE STATION*
+_SPACE STATION_
 
 API Documentation for the ISS API is at [http://open-notify.org/Open-Notify-API/](http://open-notify.org/Open-Notify-API/)
 
-1. Space Station Location
+1.  Space Station Location
+
 - Build an HTML page with a button "Get Space Station Location!".
 - When the user clicks the button, the page should show the latitude and longitude of the space station.
 
-2. ISS Pass Time for a given lat / lon
+<!-- 2. ISS Pass Time for a given lat / lon
 - Add another button 'Get ISS Pass Time for Location'
 - Add two text inputs for lat and lon
-- When the user clicks the button, get the next 5 ISS pass times from the API and show them on the screen
+- When the user clicks the button, get the next 5 ISS pass times from the API and show them on the screen -->
 
-3. People in Space
+3.  People in Space
+
 - When the page loads, fetch the people who are currently in space.
 - Show their names on the screen
 
-*NERDY NUMBERS*
+_NERDY NUMBERS_
 
 The [Numbers API](http://numbersapi.com/) is, in their words
 
@@ -66,23 +67,27 @@ The [Numbers API](http://numbersapi.com/) is, in their words
 
 Let's nerd out.
 
-1. Number One.
+1.  Number One.
+
 - Build a button that fetches a piece of trivia about the number `1`
 - and adds the fact to the DOM.
 
-2. Pick a Number, Any Number.
+2.  Pick a Number, Any Number.
+
 - Add an number input
 - On change, fetch a math fact about that number
 - Show it on the screen
 
-3. Those who fail to study history are doomed to repeat it
+3.  ----Those who fail to study history are doomed to repeat it
+
 - When the page loads, set an interval
 - Every 5 seconds, get a fact about a year and show it on the screen
 - Start with this year
 - Every 5 seconds, get the fact about the previous year
 - So, after 50 seconds, it should be 2008 or so
 
-4. All the numbers
+4.  All the numbers
+
 - Add a button 'All the Numbers'
 - When clicked, it should fetch facts for one hundred random numbers
 - And show them on the screen
